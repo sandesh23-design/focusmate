@@ -1,0 +1,56 @@
+{
+  "name": "focusmate",
+  "version": "1.0.0",
+  "description": "A productivity tool designed to help students with ADHD stay focused and productive through micro-tasking, attention tracking, and gamified rewards.",
+  "main": "src/App.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@huggingface/inference": "^4.1.0",
+    "@types/react-router-dom": "^5.3.3",
+    "framer-motion": "^6.5.1",
+    "groq-sdk": "^0.26.0",
+    "next": "^15.3.4",
+    "next-auth": "^4.24.11",
+    "pdf-parse": "^1.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-pdf": "^10.0.1",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.6",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.0"
+  },
+  "keywords": [
+    "productivity",
+    "ADHD",
+    "focus",
+    "gamification",
+    "micro-tasks"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
